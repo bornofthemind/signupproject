@@ -189,8 +189,8 @@
 						print "</form>\n";
                 
 					}else {
-						//if there is no entry in the guestbook
-						print "<div class='error'>The guestbook is empty.";
+						//if there is no entry in the Sheet
+						print "<div class='error'>The Sheet is empty.";
          		    }  
                
 		       } else {
@@ -216,7 +216,7 @@
 					print("<font color='red'><b>Invalid Id/Password </b></font>");
 				print "<form action='admin.php' method='post'>\n";
                 print "    <table BORDER=0 CELLSPACING=0 CELLPADDING=3 CLASS='tbl2' align='left'>\n";
-                print "    <caption><font SIZE=-1>Sign In To GuestBook Administration</font></caption>\n";
+                print "    <caption><font SIZE=-1>Sign In To Administration</font></caption>\n";
                 print "    <tr>\n";
 	            print "        <td><font SIZE=-2>USER ID:</font></td>\n";
 	            print "        <td><input NAME='login' TYPE='TEXT'></td>\n";
